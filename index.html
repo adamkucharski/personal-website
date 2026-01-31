@@ -134,8 +134,23 @@ footer {
 		background: rgba(0, 0, 0, 0.85);
 	}
 
+	.navbar-custom .navbar-toggle {
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		border-radius: 20px;
+		padding: 8px 16px;
+		margin-right: 10px;
+	}
+
 	.navbar-custom .navbar-toggle .icon-bar {
-		background-color: white;
+		display: none;
+	}
+
+	.navbar-custom .navbar-toggle::after {
+		content: "Menu";
+		color: white;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
 	}
 
 	.navbar-custom .nav li a {
@@ -163,19 +178,19 @@ footer {
 	}
 
 	.hero-title {
-		font-size: 32px;
+		font-size: 36px;
 	}
 
 	.hero-subtitle {
-		font-size: 10px;
+		font-size: 11px;
 		letter-spacing: 1.5px;
 		margin-bottom: 20px;
 	}
 
 	.hero-bio {
-		font-size: 13px;
-		line-height: 1.6;
-		margin-bottom: 12px;
+		font-size: 15px;
+		line-height: 1.5;
+		margin-bottom: 14px;
 	}
 
 }
@@ -183,11 +198,11 @@ footer {
 /* Small mobile */
 @media (max-width: 480px) {
 	.hero-title {
-		font-size: 28px;
+		font-size: 32px;
 	}
 
 	.hero-bio {
-		font-size: 12px;
+		font-size: 15px;
 	}
 }
 </style>
