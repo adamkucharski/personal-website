@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "Engaging schools in research"
+subtitle:   "Scientific research can be fascinating and rewarding, yet it's an experience that is rarely accessible outside universities."
+date:       2015-06-07 12:00:00
+author:     "Adam"
+header-img: ""
+---
+
+<p>Scientific research can be fascinating and rewarding, yet it's an experience that is rarely accessible outside universities. Between 2011-13 my collaborators and I worked on a project that aimed to bridge this gap, and enable school pupils to work on a real research project. Through a series of videoconferences and school visits, we helped students design and conduct a research project into the movement patterns of school aged children. The results of the research have now been published in <a href="http://currents.plos.org/outbreaks/article/temporal-changes-in-ebola-transmission-in-sierra-leone-and-implications-for-control-requirements-a-real-time-modelling-study/">PLOS ONE</a>.</p>
+
+<p>As the travel project worked so well, we are currently running another citizen science project with schools, funded by a Wellcome Trust People Award. This time, we are looking at how social contacts and other epidemiologically important factors change over the course of a school year. More details about the research can be found in <a href="http://blogs.lshtm.ac.uk/news/2014/09/04/prestigious-public-engagement-grants-awarded-school-researchers/">this blog post</a>.</p>
+
+<img src="{{ site.baseurl }}/img/2015-06-09-schoolsfig1.png" alt="">

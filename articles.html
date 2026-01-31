@@ -1,0 +1,54 @@
+---
+layout: page
+title: "Articles"
+description: "Articles"
+header-img: "img/banner_articles.jpg"
+---
+
+<p> As well as research papers, I have written articles for several newspapers and magazines, including <i>Scientific American</i>, <i>Financial Times</i>, <i>The Times</i>, <i>Wired</i>, <i>BBC Focus</i>, <i>New Scientist</i> and <i>The Observer</i>. In 2012, I won the <a href="http://www.theguardian.com/science/2012/sep/30/wellcome-science-writing-prize-winner-kucharski" target="_blank">Wellcome Trust Science Writing Prize</a>. </p>
+
+<p> You can read my latest posts on <a href="https://kucharski.substack.com/" target="_blank">Substack</a>. </p>
+
+{% for year_group in site.data.articles %}
+<div class="row">
+	<div class="col-md-1">
+		<h4> {{ year_group.year }} </h4>
+	</div>
+
+	<div class="col-md-11">
+		<hr>
+
+		<div class="post-preview">
+		{% for article in year_group.items %}
+			<h4 class="post-subtitle">
+			{% if article.url %}
+			<a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+			{% else %}
+			{{ article.title }}
+			{% endif %}
+			</h4>
+			<p class="post-meta">{{ article.publication }}</p>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% endfor %}
+
+<!--
+To add new articles, edit the file: _data/articles.yml
+
+Example format:
+- year: 2025
+  items:
+    - title: "Article Title"
+      url: "https://example.com/article"
+      publication: "Publication Name"
+    - title: "Another Article"
+      url: "https://example.com/another"
+      publication: "Another Publication"
+
+Notes:
+- Articles are automatically grouped by year
+- The 'url' field is optional (useful for print-only articles)
+- No HTML formatting required - just plain text
+-->

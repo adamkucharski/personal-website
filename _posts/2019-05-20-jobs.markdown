@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "Job opportunities"
+subtitle:	""
+date:       2019-05-20 08:00:00
+author:     "Adam Kucharski"
+header-img: ""
+---
+
+
+I'm currently advertising for a Research Fellow. Details are below, but please <a href="http://www.lshtm.ac.uk/aboutus/people/kucharski.adam" target="_blank">get in touch</a> if you'd like further information.
+
+<hr>
+
+__Project on multi-strain infections, including influenza and dengue. Funding until 31st July 2021. <br> Deadline: 17th June 2019__
+
+
+
+The post involves combining mathematical models with novel surveillance, serological, and social behaviour data to examine the dynamics of antigenically variable pathogens such as influenza and dengue. As well as investigating individual-level immune responses to such viruses, the work aims to predict how these responses shape pathogen invasion and transmission at the population level. This will involve the development and parameterisation of a range of dynamic models and will make use of some of the best available data for influenza and flaviviruses, including multiple longitudinal field studies. 
+
+Here are some recent papers to give you more of an idea about what we're working on: 
+
+• Kucharski et al. [Using paired serology and surveillance data to quantify dengue transmission and control during a large outbreak in Fiji.](https://elifesciences.org/articles/34848) eLife, 2018.
+
+• Kucharski et al. [Timescales of influenza A/H3N2 antibody dynamics.](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004974) PLOS Biology, 2018.
+
+• Kucharski et al. [The role of human immunity and social behavior in shaping influenza evolution](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006432). PLOS Pathogens, 2017.
+
+The research fellow will join a successful and supportive modelling group, with considerable scope to develop their own research within the field, in collaboration with colleagues at LSHTM and international partners. The successful applicant will have a PhD in mathematics, statistics, epidemiology or another relevant discipline with a strong quantitative component. Applicants should have experience in mathematical modelling, preferably of infectious diseases, and have a promising publication record. 
+
+Further details and application form are here: [https://jobs.lshtm.ac.uk/vacancies.aspx](https://jobs.lshtm.ac.uk/vacancy.aspx?ref=EPH-IDE-2019-15)
+
+

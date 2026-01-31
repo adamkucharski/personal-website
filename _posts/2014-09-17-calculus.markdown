@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "The calculus of contagion"
+subtitle:	"I wrote about the history of outbreak analysis."
+date:       2014-09-17 12:00:00
+author:     "Adam Kucharski"
+header-img: "img/Postmosquito.jpg"
+---
+
+<p> I’ve got a <a href="https://aeon.co/essays/how-mathematics-can-make-epidemics-history" target="_blank">piece</a> in Aeon magazine about the origins of the reproduction number, which has become crucial part of outbreak analysis. </a>
+
+<p>An interesting footnote – after Ross tipped over the water tank in Bangalore, he asked the staff officer if they could remove the other water tanks too. The staff officer rebuffed the idea. ‘He was very scornful and refused to allow men to deal with them,’ Ross later wrote. ‘For he said it would be upsetting to the order of nature, and as mosquitoes were created for some purpose it was our duty to bear with them.’</p>
+
+<div align="right"><p> <font size="2"> <i> Photo credit: <a href="http://phil.cdc.gov/phil/details.asp?pid=5814" target="_blank">CDC</a>.</i> </p> </font> </div>
+

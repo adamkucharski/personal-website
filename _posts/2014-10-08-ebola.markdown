@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Revisiting the original 1976 Ebola outbreak"
+subtitle:	"We used modern methods to analyse the first known Ebola outbreak in Zaire in 1976."
+date:       2014-10-08 12:00:00
+author:     "Adam Kucharski"
+header-img: ""
+---
+
+<p> We’ve published a <a href="http://www.sciencedirect.com/science/article/pii/S1755436514000528" target="_blank">new paper</a> in Epidemics revisiting the first known Ebola outbreak in Zaire in 1976. We show that the person-to-person reproduction number was likely to have been above 1 at the start of the outbreak, and hence the epidemiological conditions present in 1976 could have generated a larger outbreak, purely by chance. This suggests that a large outbreak of Ebola in a community was always possible, given enough time. As my co-authors put it in this Lancet comment piece, “even if we curtail this outbreak, we should expect another major one to occur eventually”. </p>
+
+<p> As part of the research, we digitised the original typewritten case list, taken from Prof Peter Piot’s original field notes. The data – which include date of onset/outcome & source of infection – could prove useful for future Ebola research, so we’ve made them available (and open access) as supplementary information. </p>
+
+<p> The accompanying LSHTM press release for the paper is <a href="http://www.lshtm.ac.uk/newsevents/news/2014/controlling_ebola.html" target="_blank">here</a>. </p>
+
+<img src="{{ site.baseurl }}/img/2014-10-08-ebolafigure1-ebola.png" alt="">

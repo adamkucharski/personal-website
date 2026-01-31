@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Adam Kucharski">
+
+    <title>What does Amazon ranking mean for sales? - Adam Kucharski</title>
+
+    <link rel="canonical" href="http://kucharski.io/2018/06/01/rank/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="/">Adam Kucharski</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li>
+                    <a href="/">Home</a>
+                </li> -->
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/academic/">Research</a>
+                </li>
+                
+                <li>
+                    <a href="/articles/">Articles</a>
+                </li>
+                
+                <li>
+                    <a href="/books/">Books</a>
+                </li>
+                
+                <li>
+                    <a href="/speaking/">Speaking</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+					<br>
+					<br>
+                    <h1>What does Amazon ranking mean for sales?</h1>
+                    <!-- 
+                    <h2 class="subheading"></h2>
+                     -->
+                    <span class="meta">Posted on June 1, 2018</span>
+					<br>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+
+	
+    <div class="container">
+		
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<p>While researching my book <i><a href="/book/" target="_blank">The Perfect Bet</a></i>, I interviewed Michael Kent, one of the pioneers of sports betting analytics. He told me how he’d always read the sports pages during classes at school. ‘A team would beat another team 28–12,’ he recalled, ‘and I would say, well how good is that?’</p>
+
+<p>Now my book has been out for a while, bouncing up and down in the Amazon rankings. So like any author, I sometimes think, ‘well how good is that?’ Although <a href="http://www.goodreads.com/topic/show/684205-what-do-amazon-rankings-mean" target="_blank">there are posts</a> out there speculating on how Amazon ranking might translate into sales, I couldn’t find much with hard data or analysis. So, armed with some sales and ranking data, this is my attempt to work out what the Amazon ranking really means.</p>
+
+<p>I’ll describe the analysis below, but if you want to skip over the technical details, the main conclusions are in the <a href="#punchline"><strong>Punchline</strong></a> section at the bottom of this post.</p>
+
+<h3 id="the-data">The data</h3>
+
+<p>If you sign up to <a href="https://authorcentral.amazon.com">Amazon Author Central</a>, you can get access to your daily Amazon rankings as well as weekly Nielsen bookscan data. According to Amazon, “BookScan estimates they report 85% of all retail print book sales”, so it seems like a reasonable proxy for true sales (although notably it doesn’t include eBooks or foreign sales). From this, I scraped the first 6 months of US data for my book.</p>
+
+<h3 id="lets-try-some-models">Let’s try some models</h3>
+
+<p>To convert ranking into BookScan sales, perhaps the simplest approach is to assume sales are inversely proportional to Amazon rank. So if <code>d1</code> is the rank on day 1, we could assume the number of sales is as follows:</p>
+
+<p><code>sales = a * (1/d1)</code></p>
+
+<p>where <code>a</code> is some scaling parameter that we need to estimate. With these assumptions in place, we can calculate weekly sales by tallying up all the daily estimated Bookscan sales in a particular week:</p>
+
+<p><code>weekly.sales = a * (1/d1 + 1/d2 + . . . + 1/d7)</code></p>
+
+<p>We can fit the model to the data by estimating what value of the <code>a</code> parameter is most likely to have generated the observed data (For stats fans: I found the maximum likelihood estimate using the <code>optim()</code> function in RStudio with a Poisson likelihood function.)</p>
+
+<p>We can get an idea of how well this fitted model captures the data by looking at the residuals (i.e. the observed BookScan values minus the ones predicted by the model):</p>
+
+<p><img src="/img/2016-08-hist1.png" alt="" /></p>
+
+<p>This shows the observed sales value is generally a bit higher than the one the model predicts—but occasionally it is much, much lower. Which implies the model is pretty rubbish at predicting sales.</p>
+
+<p>Perhaps the model assumptions are too strict? At the moment, we’re assuming that a book ranked 1,000 sells exactly twice as many copies as one ranked 2,000. Let’s add some flexibility by including another parameter <code>b</code> to tweak the strength of the inverse relationship:</p>
+
+<p><code>sales = a * 1/(d1^b)</code></p>
+
+<p>As before, we can fit these two parameters, then look at the residuals to see how closely it fits:</p>
+
+<p><img src="/img/2016-08-hist3.png" alt="" /></p>
+
+<p>That looks much better. If we want more evidence this model is preferable, we can also compare the two models using a likelihood ratio test, which measures relative model performance for nested models. The difference in log-likelihood between the two models is over 860, which implies that the second, more complex model gives a far better fit.</p>
+
+<h3 id="punchline">Punchline</h3>
+
+<p>Based on six months of daily US Amazon rankings and weekly BookScan data, the following relationship between ranking and sales produced a pretty good match to observed patterns:</p>
+
+<p><code>sales = 3721 * 1/(ranking^0.578)</code></p>
+
+<p>This would suggest the following translation table is a reasonable proxy if you want to know what a particular ranking means in terms of sales.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Amazon ranking</th>
+      <th>Predicted daily BookScan sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>100</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <td>1,000</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>10,000</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>100,000</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I didn’t include rankings as low as 1 or 10 or as high as 1 million in the table because I didn’t have any data for these extreme values, so the estimates would be too speculative. Is it plausible that the top ranked Amazon book sells ~3,700 copies per day? Maybe, but I’d really need data on other books (or someone to buy 3,700 copies of my book on a given day) to find out.</p>
+
+<p>What’s more, the sales values above should ideally include some uncertainty bounds—I just show the most likely sales estimate, given the data. I’d also advise some testing on out-of-sample data before investing too heavily in this—or any other—prediction.</p>
+
+<p>But caveats aside, there are some interesting patterns that jump out of the analysis. First, the fact that a simple model could reconstruct sales data from Amazon rankings suggests the ranking is a fairly efficient metric—if sales drop off, so does your ranking. It’s also clear that rankings operate on an exponential scale: if your ranking is 100k, you need to sell about 3.6 times more books to get to 10k, but around 3.6<sup>2</sup> times more to get up to 1,000.</p>
+
+<p>So, that’s how good that is.</p>
+
+<p><br /></p>
+
+<hr />
+
+<p><em>This post is shared under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA</a>.</em></p>
+
+
+				
+				<!--
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/02/07/zika/" data-toggle="tooltip" data-placement="top" title="Zika in French Polynesia">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/07/02/workshops/" data-toggle="tooltip" data-placement="top" title="School workshops: data and outbreaks">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+					
+					-->
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+ 
+					
+					 <!-- <p class="copyright text-muted">
+					Site created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="http://startbootstrap.com/template-overviews/clean-blog/" target="_blank">Clean Blog</a> theme. <br>
+               Content copyright &copy; Adam Kucharski 2026. -->
+			</p>
+
+			<psml>
+				
+				<!--
+				
+            <ul class="list-inline text-center">
+                <li>
+                    <a href="https://scholar.google.co.uk/citations?user=eIqfmHYAAAAJ&hl=en" target="_blank">
+                        <span class="fa-stack fa-sml">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-graduation-cap  fa-stack-1x fa-inverse"></i>
+                        </span>
+						
+                    </a>
+                </li>
+				
+                
+                <li>
+                    <a href="https://twitter.com/AdamJKucharski" target="_blank">
+                        <span class="fa-stack fa-sml">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span> 
+						
+                    </a>
+                </li>
+                
+
+                
+                <li>
+                    <a href="https://github.com/adamkucharski" target="_blank">
+                        <span class="fa-stack fa-sml">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+						
+                    </a>
+                </li>
+                
+
+			</ul>
+					
+					<ul class="list-inline text-center">
+					<a href="https://twitter.com/AdamJKucharski" class="twitter-follow-button" data-show-count="false">Follow @AdamJKucharski</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</ul>-->
+					
+			</psml>
+			
+
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>

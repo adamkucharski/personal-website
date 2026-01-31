@@ -1,0 +1,78 @@
+---
+layout:     post
+title:      "What does Amazon ranking mean for sales?"
+subtitle:	""
+date:       2018-06-01 18:00:00
+author:     "Adam Kucharski"
+header-img: ""
+---
+
+While researching my book <i><a href="{{ site.baseurl }}/book/" target="_blank">The Perfect Bet</a></i>, I interviewed Michael Kent, one of the pioneers of sports betting analytics. He told me how he'd always read the sports pages during classes at school. 'A team would beat another team 28–12,' he recalled, 'and I would say, well how good is that?'
+
+Now my book has been out for a while, bouncing up and down in the Amazon rankings. So like any author, I sometimes think, 'well how good is that?' Although <a href="http://www.goodreads.com/topic/show/684205-what-do-amazon-rankings-mean" target="_blank">there are posts</a> out there speculating on how Amazon ranking might translate into sales, I couldn't find much with hard data or analysis. So, armed with some sales and ranking data, this is my attempt to work out what the Amazon ranking really means.
+
+I'll describe the analysis below, but if you want to skip over the technical details, the main conclusions are in the [**Punchline**](#punchline) section at the bottom of this post.
+
+### The data
+
+If you sign up to [Amazon Author Central](https://authorcentral.amazon.com), you can get access to your daily Amazon rankings as well as weekly Nielsen bookscan data. According to Amazon, "BookScan estimates they report 85% of all retail print book sales", so it seems like a reasonable proxy for true sales (although notably it doesn't include eBooks or foreign sales). From this, I scraped the first 6 months of US data for my book. 
+
+
+### Let's try some models
+ 
+To convert ranking into BookScan sales, perhaps the simplest approach is to assume sales are inversely proportional to Amazon rank. So if `d1` is the rank on day 1, we could assume the number of sales is as follows:
+
+`sales = a * (1/d1)`
+
+where `a` is some scaling parameter that we need to estimate. With these assumptions in place, we can calculate weekly sales by tallying up all the daily estimated Bookscan sales in a particular week:
+
+`weekly.sales = a * (1/d1 + 1/d2 + . . . + 1/d7)`
+
+We can fit the model to the data by estimating what value of the `a` parameter is most likely to have generated the observed data (For stats fans: I found the maximum likelihood estimate using the `optim()` function in RStudio with a Poisson likelihood function.)
+
+We can get an idea of how well this fitted model captures the data by looking at the residuals (i.e. the observed BookScan values minus the ones predicted by the model):
+
+<img src="{{ site.baseurl }}/img/2016-08-hist1.png" alt="">
+
+This shows the observed sales value is generally a bit higher than the one the model predicts---but occasionally it is much, much lower. Which implies the model is pretty rubbish at predicting sales.
+
+Perhaps the model assumptions are too strict? At the moment, we're assuming that a book ranked 1,000 sells exactly twice as many copies as one ranked 2,000. Let's add some flexibility by including another parameter `b` to tweak the strength of the inverse relationship:
+
+`sales = a * 1/(d1^b)`
+
+As before, we can fit these two parameters, then look at the residuals to see how closely it fits:
+
+<img src="{{ site.baseurl }}/img/2016-08-hist3.png" alt="">
+
+That looks much better. If we want more evidence this model is preferable, we can also compare the two models using a likelihood ratio test, which measures relative model performance for nested models. The difference in log-likelihood between the two models is over 860, which implies that the second, more complex model gives a far better fit.
+
+### Punchline
+
+Based on six months of daily US Amazon rankings and weekly BookScan data, the following relationship between ranking and sales produced a pretty good match to observed patterns:
+
+`sales = 3721 * 1/(ranking^0.578)`
+
+This would suggest the following translation table is a reasonable proxy if you want to know what a particular ranking means in terms of sales.
+
+Amazon ranking   | Predicted daily BookScan sales
+------------- | -------------  
+100       |  260  
+1,000       |  70  
+10,000       |  18  
+100,000       |  5  
+
+I didn't include rankings as low as 1 or 10 or as high as 1 million in the table because I didn't have any data for these extreme values, so the estimates would be too speculative. Is it plausible that the top ranked Amazon book sells ~3,700 copies per day? Maybe, but I'd really need data on other books (or someone to buy 3,700 copies of my book on a given day) to find out.
+
+What's more, the sales values above should ideally include some uncertainty bounds---I just show the most likely sales estimate, given the data. I'd also advise some testing on out-of-sample data before investing too heavily in this---or any other---prediction.
+
+But caveats aside, there are some interesting patterns that jump out of the analysis. First, the fact that a simple model could reconstruct sales data from Amazon rankings suggests the ranking is a fairly efficient metric---if sales drop off, so does your ranking. It's also clear that rankings operate on an exponential scale: if your ranking is 100k, you need to sell about 3.6 times more books to get to 10k, but around 3.6<sup>2</sup> times more to get up to 1,000. 
+
+So, that's how good that is. 
+
+<br>
+
+
+<hr>
+
+_This post is shared under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA</a>._
+

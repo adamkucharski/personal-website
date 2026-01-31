@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adam Kucharski</title>
+    <description>Adam Kucharski</description>
+    <link>http://kucharski.io/</link>
+    <atom:link href="http://kucharski.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 30 Jan 2026 22:49:38 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Jan 2026 22:49:38 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Job opportunities</title>
+        <description>&lt;p&gt;I’m currently advertising for a Research Fellow. Details are below, but please &lt;a href=&quot;http://www.lshtm.ac.uk/aboutus/people/kucharski.adam&quot; target=&quot;_blank&quot;&gt;get in touch&lt;/a&gt; if you’d like further information.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Project on multi-strain infections, including influenza and dengue. Funding until 31st July 2021. &lt;br /&gt; Deadline: 17th June 2019&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The post involves combining mathematical models with novel surveillance, serological, and social behaviour data to examine the dynamics of antigenically variable pathogens such as influenza and dengue. As well as investigating individual-level immune responses to such viruses, the work aims to predict how these responses shape pathogen invasion and transmission at the population level. This will involve the development and parameterisation of a range of dynamic models and will make use of some of the best available data for influenza and flaviviruses, including multiple longitudinal field studies.&lt;/p&gt;
+
+&lt;p&gt;Here are some recent papers to give you more of an idea about what we’re working on:&lt;/p&gt;
+
+&lt;p&gt;• Kucharski et al. &lt;a href=&quot;https://elifesciences.org/articles/34848&quot;&gt;Using paired serology and surveillance data to quantify dengue transmission and control during a large outbreak in Fiji.&lt;/a&gt; eLife, 2018.&lt;/p&gt;
+
+&lt;p&gt;• Kucharski et al. &lt;a href=&quot;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004974&quot;&gt;Timescales of influenza A/H3N2 antibody dynamics.&lt;/a&gt; PLOS Biology, 2018.&lt;/p&gt;
+
+&lt;p&gt;• Kucharski et al. &lt;a href=&quot;https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006432&quot;&gt;The role of human immunity and social behavior in shaping influenza evolution&lt;/a&gt;. PLOS Pathogens, 2017.&lt;/p&gt;
+
+&lt;p&gt;The research fellow will join a successful and supportive modelling group, with considerable scope to develop their own research within the field, in collaboration with colleagues at LSHTM and international partners. The successful applicant will have a PhD in mathematics, statistics, epidemiology or another relevant discipline with a strong quantitative component. Applicants should have experience in mathematical modelling, preferably of infectious diseases, and have a promising publication record.&lt;/p&gt;
+
+&lt;p&gt;Further details and application form are here: &lt;a href=&quot;https://jobs.lshtm.ac.uk/vacancy.aspx?ref=EPH-IDE-2019-15&quot;&gt;https://jobs.lshtm.ac.uk/vacancies.aspx&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 May 2019 09:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2019/05/20/jobs/</link>
+        <guid isPermaLink="true">http://kucharski.io/2019/05/20/jobs/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Citizen science: how does flu spread?</title>
+        <description>&lt;p&gt;Our team at the London School of Hygiene &amp;amp; Tropical Medicine is launching a new project to study flu transmission in schools and communities, and is looking for schools to partner with.&lt;/p&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;We are based in the &lt;a href=&quot;http://cmmid.lshtm.ac.uk/&quot; target=&quot;_blank&quot;&gt;Centre for the Mathematical Modelling of Infectious Diseases&lt;/a&gt;, and study how factors like social behaviour influence infectious disease outbreaks. We have previously run several research projects with schools (see references below). We’d like to develop links with your school to run a survey of flu symptoms in schools and households, working with your students to help them gain deeper insights into scientific research along the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center-block&quot; src=&quot;/img/school_networks.jpg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-project&quot;&gt;The project&lt;/h3&gt;
+&lt;p&gt;The project would involve running 3 workshops with the same group of students during the 2018/19 school year, each lasting 1–1.5 hours (or as close as your timetable allows). Sessions will be aimed at Year 9 or 10, and tailored to match topics covered in the curriculum.&lt;/p&gt;
+
+&lt;p&gt;Over the course of the workshops, students will have the opportunity to develop a recruitment strategy for the project, and also analysis the new data once collected. In the process, students will be able to debate and explore topical health issues, covering interdisciplinary topics including public health, statistical analysis, and data ethics. In partnership with your school, we would assess the effectiveness of such activities by measuring students’ attitudes and progress before and after the project.&lt;/p&gt;
+
+&lt;p&gt;If this is something that your school would be interested in please get in touch (adam.kucharski AT lshtm.ac.uk) by 18th June 2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.maths.org/content/students-epidemiology&quot; target=&quot;_blank&quot;&gt;School students help researchers fight diseases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lshtm.ac.uk/newsevents/news/2018/new-insights-school-friendship-patterns-could-boost-research-infectious&quot; target=&quot;_blank&quot;&gt;New insights into school friendship patterns could boost research into infectious disease outbreaks &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 12 May 2019 19:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2019/05/12/workshops2/</link>
+        <guid isPermaLink="true">http://kucharski.io/2019/05/12/workshops2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>School workshops: data and outbreaks</title>
+        <description>&lt;p&gt;My group at the London School of Hygiene &amp;amp; Tropical Medicine is launching a new programme of science workshops about data science and infectious diseases, and are looking for schools to partner with.&lt;/p&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;We are based in the &lt;a href=&quot;http://cmmid.lshtm.ac.uk/&quot; target=&quot;_blank&quot;&gt;Centre for the Mathematical Modelling of Infectious Diseases&lt;/a&gt;, and study how factors like social behaviour influence infectious disease outbreaks. We have previously run several research projects with schools (see references below) and are part of the &lt;a href=&quot;http://bbc.co.uk/pandemic&quot; target=&quot;_blank&quot;&gt;BBC Contagion! project&lt;/a&gt;, a major national data collection initiative and TV programme. We’d like to develop links with your school to help students gain deeper insights into scientific research, and help us understand how research activities can improve engagement with science, using funding received from the Wellcome Trust.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center-block&quot; src=&quot;/img/school_networks.jpg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-project&quot;&gt;The project&lt;/h3&gt;
+&lt;p&gt;We aim to run 3 workshops with the same group of students during the 2018/19 school year, each lasting around 1.5 hours (or as close as your timetable allows). Sessions will be aimed at Year 9 or 10, and tailored to match topics covered in the curriculum. We would then run another set of workshops in the following year, with a new cohort of students.&lt;/p&gt;
+
+&lt;p&gt;Over the course of the workshops, students will have the opportunity to develop mini-research projects linked to the spread of infection, building on some of the real datasets we have previously collected. In the process, students will be able to debate and explore topical health issues, covering interdisciplinary topics including public health, statistical analysis, and data ethics. In partnership with your school, we would assess the effectiveness of such activities by measuring students’ attitudes and progress before and after the project.&lt;/p&gt;
+
+&lt;p&gt;If this is something that your school would be interested in please get in touch (adam.kucharski AT lshtm.ac.uk) by 14th September 2018.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plus.maths.org/content/students-epidemiology&quot; target=&quot;_blank&quot;&gt;School students help researchers fight diseases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128070&quot; target=&quot;_blank&quot;&gt;Kucharski AJ et al. School’s Out: Seasonal Variation in the Movement Patterns of School Children&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/early/2018/05/18/322271&quot; target=&quot;_blank&quot;&gt;Kucharski AJ et al. Structure and consistency of self-reported social contact networks in British secondary schools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Jul 2018 19:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2018/07/02/workshops/</link>
+        <guid isPermaLink="true">http://kucharski.io/2018/07/02/workshops/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>What does Amazon ranking mean for sales?</title>
+        <description>&lt;p&gt;While researching my book &lt;i&gt;&lt;a href=&quot;/book/&quot; target=&quot;_blank&quot;&gt;The Perfect Bet&lt;/a&gt;&lt;/i&gt;, I interviewed Michael Kent, one of the pioneers of sports betting analytics. He told me how he’d always read the sports pages during classes at school. ‘A team would beat another team 28–12,’ he recalled, ‘and I would say, well how good is that?’&lt;/p&gt;
+
+&lt;p&gt;Now my book has been out for a while, bouncing up and down in the Amazon rankings. So like any author, I sometimes think, ‘well how good is that?’ Although &lt;a href=&quot;http://www.goodreads.com/topic/show/684205-what-do-amazon-rankings-mean&quot; target=&quot;_blank&quot;&gt;there are posts&lt;/a&gt; out there speculating on how Amazon ranking might translate into sales, I couldn’t find much with hard data or analysis. So, armed with some sales and ranking data, this is my attempt to work out what the Amazon ranking really means.&lt;/p&gt;
+
+&lt;p&gt;I’ll describe the analysis below, but if you want to skip over the technical details, the main conclusions are in the &lt;a href=&quot;#punchline&quot;&gt;&lt;strong&gt;Punchline&lt;/strong&gt;&lt;/a&gt; section at the bottom of this post.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-data&quot;&gt;The data&lt;/h3&gt;
+
+&lt;p&gt;If you sign up to &lt;a href=&quot;https://authorcentral.amazon.com&quot;&gt;Amazon Author Central&lt;/a&gt;, you can get access to your daily Amazon rankings as well as weekly Nielsen bookscan data. According to Amazon, “BookScan estimates they report 85% of all retail print book sales”, so it seems like a reasonable proxy for true sales (although notably it doesn’t include eBooks or foreign sales). From this, I scraped the first 6 months of US data for my book.&lt;/p&gt;
+
+&lt;h3 id=&quot;lets-try-some-models&quot;&gt;Let’s try some models&lt;/h3&gt;
+
+&lt;p&gt;To convert ranking into BookScan sales, perhaps the simplest approach is to assume sales are inversely proportional to Amazon rank. So if &lt;code&gt;d1&lt;/code&gt; is the rank on day 1, we could assume the number of sales is as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sales = a * (1/d1)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;where &lt;code&gt;a&lt;/code&gt; is some scaling parameter that we need to estimate. With these assumptions in place, we can calculate weekly sales by tallying up all the daily estimated Bookscan sales in a particular week:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;weekly.sales = a * (1/d1 + 1/d2 + . . . + 1/d7)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We can fit the model to the data by estimating what value of the &lt;code&gt;a&lt;/code&gt; parameter is most likely to have generated the observed data (For stats fans: I found the maximum likelihood estimate using the &lt;code&gt;optim()&lt;/code&gt; function in RStudio with a Poisson likelihood function.)&lt;/p&gt;
+
+&lt;p&gt;We can get an idea of how well this fitted model captures the data by looking at the residuals (i.e. the observed BookScan values minus the ones predicted by the model):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2016-08-hist1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This shows the observed sales value is generally a bit higher than the one the model predicts—but occasionally it is much, much lower. Which implies the model is pretty rubbish at predicting sales.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the model assumptions are too strict? At the moment, we’re assuming that a book ranked 1,000 sells exactly twice as many copies as one ranked 2,000. Let’s add some flexibility by including another parameter &lt;code&gt;b&lt;/code&gt; to tweak the strength of the inverse relationship:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sales = a * 1/(d1^b)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As before, we can fit these two parameters, then look at the residuals to see how closely it fits:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2016-08-hist3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That looks much better. If we want more evidence this model is preferable, we can also compare the two models using a likelihood ratio test, which measures relative model performance for nested models. The difference in log-likelihood between the two models is over 860, which implies that the second, more complex model gives a far better fit.&lt;/p&gt;
+
+&lt;h3 id=&quot;punchline&quot;&gt;Punchline&lt;/h3&gt;
+
+&lt;p&gt;Based on six months of daily US Amazon rankings and weekly BookScan data, the following relationship between ranking and sales produced a pretty good match to observed patterns:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sales = 3721 * 1/(ranking^0.578)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This would suggest the following translation table is a reasonable proxy if you want to know what a particular ranking means in terms of sales.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Amazon ranking&lt;/th&gt;
+      &lt;th&gt;Predicted daily BookScan sales&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;260&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1,000&lt;/td&gt;
+      &lt;td&gt;70&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10,000&lt;/td&gt;
+      &lt;td&gt;18&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;100,000&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I didn’t include rankings as low as 1 or 10 or as high as 1 million in the table because I didn’t have any data for these extreme values, so the estimates would be too speculative. Is it plausible that the top ranked Amazon book sells ~3,700 copies per day? Maybe, but I’d really need data on other books (or someone to buy 3,700 copies of my book on a given day) to find out.&lt;/p&gt;
+
+&lt;p&gt;What’s more, the sales values above should ideally include some uncertainty bounds—I just show the most likely sales estimate, given the data. I’d also advise some testing on out-of-sample data before investing too heavily in this—or any other—prediction.&lt;/p&gt;
+
+&lt;p&gt;But caveats aside, there are some interesting patterns that jump out of the analysis. First, the fact that a simple model could reconstruct sales data from Amazon rankings suggests the ranking is a fairly efficient metric—if sales drop off, so does your ranking. It’s also clear that rankings operate on an exponential scale: if your ranking is 100k, you need to sell about 3.6 times more books to get to 10k, but around 3.6&lt;sup&gt;2&lt;/sup&gt; times more to get up to 1,000.&lt;/p&gt;
+
+&lt;p&gt;So, that’s how good that is.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;This post is shared under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot; target=&quot;_blank&quot;&gt;CC BY-SA&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Jun 2018 19:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2018/06/01/rank/</link>
+        <guid isPermaLink="true">http://kucharski.io/2018/06/01/rank/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Zika in French Polynesia</title>
+        <description>&lt;p&gt; Plan &lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 07 Feb 2016 12:00:00 +0000</pubDate>
+        <link>http://kucharski.io/2016/02/07/zika/</link>
+        <guid isPermaLink="true">http://kucharski.io/2016/02/07/zika/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Engaging schools in research</title>
+        <description>&lt;p&gt;Scientific research can be fascinating and rewarding, yet it&apos;s an experience that is rarely accessible outside universities. Between 2011-13 my collaborators and I worked on a project that aimed to bridge this gap, and enable school pupils to work on a real research project. Through a series of videoconferences and school visits, we helped students design and conduct a research project into the movement patterns of school aged children. The results of the research have now been published in &lt;a href=&quot;http://currents.plos.org/outbreaks/article/temporal-changes-in-ebola-transmission-in-sierra-leone-and-implications-for-control-requirements-a-real-time-modelling-study/&quot;&gt;PLOS ONE&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As the travel project worked so well, we are currently running another citizen science project with schools, funded by a Wellcome Trust People Award. This time, we are looking at how social contacts and other epidemiologically important factors change over the course of a school year. More details about the research can be found in &lt;a href=&quot;http://blogs.lshtm.ac.uk/news/2014/09/04/prestigious-public-engagement-grants-awarded-school-researchers/&quot;&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2015-06-09-schoolsfig1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Jun 2015 13:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2015/06/07/schools/</link>
+        <guid isPermaLink="true">http://kucharski.io/2015/06/07/schools/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Estimating the life course of flu immunity</title>
+        <description>&lt;p&gt;We’ve got a &lt;a href=&quot;http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002082&quot;&gt;new paper&lt;/a&gt; in PLOS Biology looking at how immunity develops over the course of a lifetime. Immunity against seasonal flu viruses influences a range of important processes, from the emergence of new virus strains, to the size and severity of flu epidemics, to the effectiveness of vaccination programmes. However, there is much we don’t understand about the factors that shape a person’s immune response to a particular strain. The main reason is because individual infections – and the subsequent acquisition of immunity – over the course of a lifetime are rarely observed directly. &lt;/p&gt;
+
+&lt;p&gt; To work out how a lifetime of infections affect a person’s level of immunity, we developed a new mathematical model of antibody dynamics. Our model captured the specific strains with which an individual had been infected, as well as the different immunological processes that could influence their antibody response. We then combined the model with data from a survey in southern China that tested against antibody levels against nine different influenza strains from 1968 to 2009. This made it possible to identify key components of the immune response, and estimate  the frequency of influenza infection in different age groups. &lt;/p&gt;
+
+&lt;p&gt; This research was covered by several media outlets, including: BBC News, El País, The Independent, New Scientist, The Telegraph, Time, and The Times. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2015-03-04-lifecoursefig3plos.png&quot; alt=&quot;fig&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 04 Mar 2015 12:00:00 +0000</pubDate>
+        <link>http://kucharski.io/2015/03/04/lifecourse/</link>
+        <guid isPermaLink="true">http://kucharski.io/2015/03/04/lifecourse/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Revisiting the original 1976 Ebola outbreak</title>
+        <description>&lt;p&gt; We’ve published a &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1755436514000528&quot; target=&quot;_blank&quot;&gt;new paper&lt;/a&gt; in Epidemics revisiting the first known Ebola outbreak in Zaire in 1976. We show that the person-to-person reproduction number was likely to have been above 1 at the start of the outbreak, and hence the epidemiological conditions present in 1976 could have generated a larger outbreak, purely by chance. This suggests that a large outbreak of Ebola in a community was always possible, given enough time. As my co-authors put it in this Lancet comment piece, “even if we curtail this outbreak, we should expect another major one to occur eventually”. &lt;/p&gt;
+
+&lt;p&gt; As part of the research, we digitised the original typewritten case list, taken from Prof Peter Piot’s original field notes. The data – which include date of onset/outcome &amp;amp; source of infection – could prove useful for future Ebola research, so we’ve made them available (and open access) as supplementary information. &lt;/p&gt;
+
+&lt;p&gt; The accompanying LSHTM press release for the paper is &lt;a href=&quot;http://www.lshtm.ac.uk/newsevents/news/2014/controlling_ebola.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2014-10-08-ebolafigure1-ebola.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Oct 2014 13:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2014/10/08/ebola/</link>
+        <guid isPermaLink="true">http://kucharski.io/2014/10/08/ebola/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The calculus of contagion</title>
+        <description>&lt;p&gt; I’ve got a &lt;a href=&quot;https://aeon.co/essays/how-mathematics-can-make-epidemics-history&quot; target=&quot;_blank&quot;&gt;piece&lt;/a&gt; in Aeon magazine about the origins of the reproduction number, which has become crucial part of outbreak analysis. &amp;lt;/a&amp;gt;
+
+&lt;p&gt;An interesting footnote – after Ross tipped over the water tank in Bangalore, he asked the staff officer if they could remove the other water tanks too. The staff officer rebuffed the idea. ‘He was very scornful and refused to allow men to deal with them,’ Ross later wrote. ‘For he said it would be upsetting to the order of nature, and as mosquitoes were created for some purpose it was our duty to bear with them.’&lt;/p&gt;
+
+&lt;div align=&quot;right&quot;&gt;&lt;p&gt; &lt;font size=&quot;2&quot;&gt; &lt;i&gt; Photo credit: &lt;a href=&quot;http://phil.cdc.gov/phil/details.asp?pid=5814&quot; target=&quot;_blank&quot;&gt;CDC&lt;/a&gt;.&lt;/i&gt; &amp;lt;/p&amp;gt; &lt;/font&gt; &amp;lt;/div&amp;gt;
+
+&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Sep 2014 13:00:00 +0100</pubDate>
+        <link>http://kucharski.io/2014/09/17/calculus/</link>
+        <guid isPermaLink="true">http://kucharski.io/2014/09/17/calculus/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

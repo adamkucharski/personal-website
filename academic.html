@@ -1,0 +1,218 @@
+---
+layout: page
+title: "Research"
+description: "Research"
+header-img: "img/analytics_header.jpg"
+---
+
+<p>My research focuses on understanding how health threats spread through populations, and how we can use data to respond more effectively. This spans everything from large-scale studies of social behaviour and immunity to developing new statistical methods for real-time outbreak analysis.</p>
+
+<p>A major theme of my work has been building tools that can translate messy, incomplete data into actionable insights. During the COVID-19 pandemic, this meant contributing to over 40 analytical studies for SAGE and SPI-M-O to inform UK policy. I've also worked on collaborative projects with organisations including the <a href="https://www.thelancet.com/article/S1473-3099(20)30457-6/fulltext" target="_blank">BBC</a>, <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001531" target="_blank">SpaceX</a>, <a href="https://www.lshtm.ac.uk/newsevents/news/2019/facebook-disease-prevention-maps-developed-help-respond-outbreaks" target="_blank">Meta</a>, and the <a href="https://wwwnc.cdc.gov/eid/article/30/9/24-0853_article" target="_blank">Premier League</a>.</p>
+
+
+<div class="scholar-cta">
+	<a href="https://scholar.google.co.uk/citations?user=eIqfmHYAAAAJ&hl=en" target="_blank" class="scholar-btn">
+		<i class="fa fa-graduation-cap"></i> View all publications on Google Scholar
+	</a>
+</div>
+
+<!-- Scrolling research images banner -->
+<div class="marquee-container">
+	<div class="marquee-track">
+		<div class="marquee-content">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/rsif_figure.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research1.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research2.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research3.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research4.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research5.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research6.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research7.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research8.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research9.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/default.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/pbio_figure.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/school_networks.jpg" alt="School networks">
+		</div>
+		<div class="marquee-content">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/rsif_figure.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research1.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research2.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research3.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research4.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research5.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research6.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research7.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research8.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/research9.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/default.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/pbio_figure.jpg" alt="Research">
+			<img src="{{ site.baseurl }}/img/pics_research_compressed/school_networks.jpg" alt="School networks">
+		</div>
+	</div>
+</div>
+
+
+
+<h2>Open-source software</h2>
+
+<p>I have helped develop a range of analytical tools for health research. Here are some of the open-source projects I co-lead:</p>
+
+<div class="software-grid">
+	<a href="https://epiverse-trace.github.io/" target="_blank" class="software-card">
+		<h4>Epiverse-TRACE</h4>
+		<p>A global initiative developing sustainable, production-quality R packages for outbreak analytics.</p>
+	</a>
+	<a href="https://seroanalytics.io/" target="_blank" class="software-card">
+		<h4>seroanalytics</h4>
+		<p>Tools for analysing antibody data from population-level serological studies.</p>
+	</a>
+	<a href="https://adamkucharski.github.io/pdf2plot/" target="_blank" class="software-card">
+		<h4>pdf2plot</h4>
+		<p>Extract data points from published figures using automated digitisation.</p>
+	</a>
+	<a href="https://github.com/adamkucharski" target="_blank" class="software-card">
+		<h4>GitHub</h4>
+		<p>Browse all my open-source code, packages, and research repositories.</p>
+	</a>
+</div>
+
+
+
+<style>
+/* Marquee styles */
+.marquee-container {
+	margin: 40px -50vw;
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	overflow: hidden;
+}
+
+.marquee-track {
+	display: flex;
+	width: max-content;
+	animation: marquee 60s linear infinite;
+}
+
+.marquee-content {
+	display: flex;
+	flex-shrink: 0;
+}
+
+.marquee-content img {
+	height: 150px;
+	width: auto;
+	margin-right: 12px;
+	object-fit: cover;
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+.marquee-container:hover .marquee-track {
+	animation-play-state: paused;
+}
+
+/* Google Scholar CTA */
+.scholar-cta {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.scholar-btn {
+	display: inline-block;
+	padding: 14px 30px;
+	background-color: #0085a1;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.scholar-btn:hover {
+	background-color: #006d85;
+	color: white;
+	text-decoration: none;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 133, 161, 0.3);
+}
+
+.scholar-btn i {
+	margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+	.marquee-container {
+		margin: 30px -15px;
+		width: calc(100% + 30px);
+		left: 0;
+	}
+
+	.marquee-content img {
+		height: 150px;
+		margin-right: 8px;
+	}
+}
+
+/* Software grid */
+.software-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	margin: 30px 0;
+}
+
+.software-card {
+	display: block;
+	padding: 25px;
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.software-card:hover {
+	background: #fff;
+	border-color: #0085a1;
+	box-shadow: 0 4px 12px rgba(0, 133, 161, 0.15);
+	text-decoration: none;
+	transform: translateY(-2px);
+}
+
+.software-card h4 {
+	color: #0085a1;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+}
+
+.software-card p {
+	color: #666;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+	.software-grid {
+		grid-template-columns: 1fr;
+	}
+}
+</style>
+
+<!--
+To add images to the scrolling banner, add more <img> tags in BOTH marquee-content divs:
+<img src="{{ site.baseurl }}/img/pics_research_compressed/YOUR_IMAGE.jpg" alt="Description">
+-->

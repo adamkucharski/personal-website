@@ -1,0 +1,186 @@
+# Articles data file
+# To add a new article, simply add a new entry with title, url, and publication
+# Articles are grouped by year for display
+
+- year: 2025
+  items:
+    - title: "The big idea: do we worry too much about misinformation?"
+      url: "https://www.theguardian.com/books/2025/mar/17/the-big-idea-do-we-worry-too-much-about-misinformation"
+      publication: "The Guardian"
+    - title: "When Monsters Came for Mathematics"
+      url: "https://nautil.us/when-monsters-came-for-mathematics-1217312/"
+      publication: "Nautilus"
+    - title: "Facebook Without Fact-Checkers Will Put Truth to the Test"
+      url: "https://www.bloomberg.com/news/articles/2025-01-17/facebook-without-fact-checkers-will-put-truth-to-the-test"
+      publication: "Bloomberg"
+
+- year: 2024
+  items:
+    - title: "How a Lab Leak Could Cause the Next Covid-Like Pandemic"
+      url: "https://www.bloomberg.com/news/articles/2024-11-29/how-a-lab-leak-could-cause-the-next-covid-like-pandemic"
+      publication: "Bloomberg"
+    - title: "Mpox: How we got here and where the outbreaks might be going"
+      url: "https://www.telegraph.co.uk/global-health/science-and-disease/mpox-how-we-got-here-and-where-the-outbreaks-might-be-going/"
+      publication: "The Telegraph"
+
+- year: 2022
+  items:
+    - title: "Get ready to play 'guess the viral variant'"
+      url: "https://www.wired.co.uk/article/covid-19-pandemic-variants-health-science"
+      publication: "Wired"
+    - title: "Fragmented outbreak data will lead to a repeat of COVID-19"
+      url: "https://www.nature.com/articles/d41586-022-02268-9"
+      publication: "Nature"
+
+- year: 2021
+  items:
+    - title: "How modelling Covid has changed the way we think about epidemics"
+      url: "https://www.theguardian.com/commentisfree/2021/jan/04/covid-model-epidemic-collaboration-experiment"
+      publication: "The Guardian"
+    - title: "The new Covid variants are a peril to us all"
+      url: "https://www.ft.com/content/5691b1bb-0f9f-4410-9ade-84f4d55ea778"
+      publication: "Financial Times"
+
+- year: 2020
+  items:
+    - title: "How COVID-19 models work, and why we need them"
+      url: "https://www.theguardian.com/commentisfree/2020/nov/11/covid-data-imperfect-scientists-projections"
+      publication: "The Guardian"
+    - title: "What we don't know about COVID-19 can hurt us"
+      url: "https://time.com/5874241/dont-know-covid-19-hurt-us/"
+      publication: "Time"
+    - title: "The pandemic playbook: A step-by-step guide to containing an outbreak"
+      url: "https://www.newscientist.com/article/mg24632871-500-the-pandemic-playbook-a-step-by-step-guide-to-containing-an-outbreak/"
+      publication: "New Scientist"
+    - title: "El contagio de la desinformación"
+      url: "https://elpais.com/elpais/2020/02/24/opinion/1582554918_069600.html"
+      publication: "El País"
+    - title: "How maths is helping to answer crucial COVID-19 questions"
+      url: "https://www.newscientist.com/article/2233386-coronavirus-how-maths-is-helping-to-answer-crucial-covid-19-questions/"
+      publication: "New Scientist"
+    - title: "Misinformation on the coronavirus might be the most contagious thing about it"
+      url: "https://www.theguardian.com/commentisfree/2020/feb/08/misinformation-coronavirus-contagious-infections"
+      publication: "The Guardian"
+    - title: "So just how deadly could China's coronavirus get?"
+      url: "https://www.thetimes.co.uk/article/so-just-how-deadly-could-chinas-coronavirus-get-rc3v680sl"
+      publication: "The Times"
+
+- year: 2017
+  items:
+    - title: "The future of medicine (book chapter in What's Next)"
+      url: "https://amzn.to/2UoYF6C"
+      publication: "Profile Books"
+
+- year: 2016
+  items:
+    - title: "Euclid as Founding Father"
+      url: "http://nautil.us/issue/41/selection/euclid-as-founding-father"
+      publication: "Nautilus"
+    - title: "These poker-playing robots can bluff better than humans"
+      url: "http://www.wired.co.uk/article/poker-ultimate-test-for-machine-learning"
+      publication: "Wired"
+    - title: "How winning at cards can help you win at life"
+      url: "https://www.newscientist.com/article/2100101-how-winning-at-cards-can-help-you-win-at-life/"
+      publication: "New Scientist"
+    - title: "Betting and investment both require skill and luck"
+      url: "https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi4ytvWvd_NAhWsD8AKHeDABL8QFggeMAA&url=http%3A%2F%2Fwww.ft.com%2Fcms%2Fs%2F0%2Fa472722e-0e25-11e6-b41f-0beb7e589515.html"
+      publication: "Financial Times"
+    - title: "How to beat the house: the science behind gamblers' hot streaks"
+      url: "https://www.thedailybeast.com/how-to-beat-the-house-the-science-behind-gamblers-hot-streaks"
+      publication: "The Daily Beast"
+    - title: "Seven lucky ways that gambling changed maths"
+      url: "https://www.theguardian.com/science/alexs-adventures-in-numberland/2016/may/05/seven-lucky-ways-that-gambling-changed-maths"
+      publication: "The Guardian"
+    - title: "How science and statistics are taking over sport"
+      url: "http://www.newstatesman.com/politics/sport/2016/04/how-science-and-statistics-are-taking-over-sport"
+      publication: "New Statesman"
+    - title: "How a group of MIT students gamed the Massachusetts State Lottery (book extract)"
+      url: "http://www.theatlantic.com/business/archive/2016/02/how-mit-students-gamed-the-lottery/470349/"
+      publication: "The Atlantic"
+    - title: "How to build an unbeatable poker-playing robot (book extract)"
+      url: "http://www.theatlantic.com/technology/archive/2016/02/poker-bots/470121/"
+      publication: "The Atlantic"
+    - title: "How to tackle a lottery with mathematics"
+      url: "http://www.kdnuggets.com/2016/01/how-tackle-lottery-mathematics.html"
+      publication: "KDnuggets"
+
+- year: 2015
+  items:
+    - title: "Will the Earth ever fill up?"
+      url: "http://nautil.us/issue/29/scaling/will-the-earth-ever-fill-up"
+      publication: "Nautilus"
+    - title: "Mosquito Press (a short story)"
+      url: "http://www.amazon.co.uk/gp/product/1785450549/"
+      publication: "2015 Bath Short Story Award Anthology"
+    - title: "Book reviews: Professor Povey's Perplexing Problems, The Birth of a Theorem"
+      publication: "BBC Focus"
+
+- year: 2014
+  items:
+    - title: "Immunity's illusion"
+      url: "http://www.nature.com/scientificamerican/journal/v311/n6/full/scientificamerican1214-80.html"
+      publication: "Scientific American"
+    - title: "Help West Africa in its Ebola crisis"
+      publication: "London Evening Standard"
+    - title: "The calculus of contagion"
+      url: "http://aeon.co/magazine/health/how-mathematics-can-make-epidemics-history/"
+      publication: "Aeon"
+    - title: "Finding Apollo (book chapter in 50 Visions of Mathematics)"
+      url: "http://ukcatalogue.oup.com/product/9780198701811.do"
+      publication: "Oxford University Press"
+    - title: "Math's beautiful monsters"
+      url: "http://nautil.us/issue/11/light/maths-beautiful-monsters"
+      publication: "Nautilus"
+    - title: "Book review: The Simpsons and Their Mathematical Secrets"
+      publication: "BBC Focus"
+
+- year: 2013
+  items:
+    - title: "Forget perfect pizzas, here are four things simple maths really can help you with"
+      url: "http://www.nature.com/scientificamerican/journal/v311/n6/full/scientificamerican1214-80.html"
+      publication: "Quartz/The Conversation"
+    - title: "How can I win at Christmas board games?"
+      publication: "BBC Focus"
+    - title: "Keep it simple, stupid: Maths doesn't have to be 'complex'"
+      url: "http://blogs.scientificamerican.com/guest-blog/2013/08/29/keep-it-simple-stupid-maths-doesnt-have-to-be-complex/"
+      publication: "SciAm blogs/The Conversation"
+    - title: "Exploring the financial ecosystem"
+      url: "http://plus.maths.org/content/exploring-financial-ecosystem"
+      publication: "Plus Magazine"
+    - title: "The shortlist (a short story)"
+      url: "http://www.nature.com/nature/journal/v493/n7433/full/493570a.html"
+      publication: "Nature"
+    - title: "Factoring in face time"
+      url: "http://www.the-scientist.com/?articles.view/articleNo/35723/title/Factoring-in-Face-Time/"
+      publication: "The Scientist"
+    - title: "Chaos reigns"
+      publication: "BBC Focus"
+    - title: "Book reviews: Mathletics, The Joy of X, Math on Trial, Naked Statistics"
+      publication: "BBC Focus"
+
+- year: 2012
+  items:
+    - title: "In need of a number"
+      url: "http://www.guardian.co.uk/science/2012/sep/30/wellcome-science-writing-prize-winner-kucharski"
+      publication: "The Observer"
+    - title: "Understanding the unseen"
+      url: "http://plus.maths.org/content/understanding-unseen"
+      publication: "Plus Magazine"
+    - title: "The family tree of an epidemic"
+      url: "http://www.tandfonline.com/doi/abs/10.1080/09332480.2012.685363"
+      publication: "CHANCE Magazine"
+    - title: "Mapping the mind's eye"
+      url: "http://plus.maths.org/content/mapping-minds-eye"
+      publication: "Plus Magazine"
+    - title: "Finding the source of an epidemic"
+      url: "http://www.significancemagazine.org/details/webexclusive/1453839/Finding-the-source-of-an-epidemic.html"
+      publication: "Significance"
+
+- year: 2011
+  items:
+    - title: "Keeping track of immunity"
+      url: "http://plus.maths.org/content/keeping-track-immunity"
+      publication: "Plus Magazine"
+    - title: "Book review: Mathematics of life"
+      url: "http://plus.maths.org/content/mathematics-life"
+      publication: "Plus Magazine"
